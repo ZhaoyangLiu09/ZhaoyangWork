@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/placeholder" />
+
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:paddingTop="8dp" />
+
+    <TextView
+        android:id="@+id/movie_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year" />
+
+    <TextView
+        android:id="@+id/movie_genre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genre" />
+</LinearLayout>
